@@ -1,7 +1,11 @@
-## Resume Website
-<p>
-A clean and responsive online resume built using HTML and CSS.  
-This webpage highlights my education, skills, and projects in a simple, modern design.
-  </p>
-<button style=" color:red">vamsi</button>
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Resume</title>
+</head>
+<body>
+  <h1>Harsha Kadali</h1>
+  <p>This is my resume website.</p>
+</body>
+</html>
