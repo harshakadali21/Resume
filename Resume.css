@@ -1,0 +1,117 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: "Poppins", "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #b3dfff, #b5daff);
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ===== Resume Container ===== */
+.resume-container {
+  max-width: 850px;
+  background: #ffffff;
+  margin: 50px auto;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border-top: 6px solid #0078d7;
+}
+
+/* ===== Header ===== */
+h1 {
+  text-align: center;
+  font-size: 2.4em;
+  color: #0078d7;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin: 6px 0;
+  color: #444;
+}
+
+a {
+  color: #0078d7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0056a3;
+  text-decoration: underline;
+}
+
+/* ===== Contact Info ===== */
+.resume-container p:nth-child(2),
+.resume-container p:nth-child(3),
+.resume-container p:nth-child(4) {
+  text-align: center;
+}
+
+/* ===== Section Titles ===== */
+h2 {
+  background: linear-gradient(90deg, #0078d7, #0099ff);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 1.3em;
+  margin-top: 35px;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Lists ===== */
+ul {
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* ===== Highlighted Project Titles ===== */
+strong, b {
+  color: #0078d7;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 2px solid #0078d7;
+  color: #555;
+  font-size: 14px;
+}
+
+/* ===== Hover Highlight Effect ===== */
+ul li:hover {
+  color: #ff03ea;
+  transition: 0.3s ease;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+  .resume-container {
+    padding: 25px 20px;
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  p, li {
+    font-size: 15px;
+  }
+}
